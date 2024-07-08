@@ -50,7 +50,7 @@ export class CalculatorComponent {
 
   appendOperator(operator: string) {
     if (this.expression === '0' && operator !== '+/-' && operator !== '×' && operator !== '÷') {
-      return; // Eğer ekran değeri 0 ise ve eklenen operatör değiştirme işlemi değilse, işlem yapma
+      return; 
     }
 
     const lastChar = this.expression[this.expression.length - 1];
